@@ -8,7 +8,7 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
-openai.api_key = 'api here'
+openai.api_key = 'OpenAI key here'
 
 @app.route('/')
 def index():

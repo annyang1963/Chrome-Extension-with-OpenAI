@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>My Extension</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div>
+    <label for="question">Enter your question:</label>
+    <input type="text" id="question" />
+    <button id="submit">Submit</button>
+  </div>
+  <div id="response"></div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Extension</title>
+  <script src="popup.js"></script>
+  <style>
+    #response {
+      height: 200px;
+      width: 400px;
+      border: 1px solid black;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <label for="question">Enter your question:</label>
+    <input type="text" id="question" />
+    <button id="submit">Submit</button>
+  </div>
+  <div id="response">
+    <ul id="history"></ul>
+  </div>
+</body>
+</html>

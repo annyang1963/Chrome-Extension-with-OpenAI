@@ -1,7 +1,7 @@
 import requests
 import openai
-openai.api_key = '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'
-api_key = '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'
+
+api_key = 'OpenAI key here'
 headers = {
     'Authorization': f'Bearer {api_key}'
 }
